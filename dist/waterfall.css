@@ -1,0 +1,22 @@
+.waterfall {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.waterfall .img-wrap {
+  display: block;
+  height: auto;
+  position: absolute;
+  background: #f0f0f0;
+}
+.waterfall .img-wrap img {
+  width: 100%;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.waterfall .img-wrap img.loaded {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=waterfall.css.map */

@@ -1,0 +1,7 @@
+# 忽略 .idea 檔案
+.idea/
+
+# 忽略 images
+src/images/
+
+index.php

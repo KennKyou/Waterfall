@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waterfall Layout + Lazy Loading</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="dist/waterfall.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body data-page="index" class="body-lock">
+  <section class="waterfall-section">
+    <div class="waterfall waterfall1">
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/1.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/2.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/3.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/4.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/5.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/6.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/7.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/8.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/9.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/10.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/11.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/12.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/13.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/14.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/15.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/16.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/17.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/18.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/19.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/20.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/21.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/22.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/23.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/24.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/25.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/26.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/27.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/28.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/29.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/30.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/31.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/32.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/33.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/34.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/35.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/36.jpg" alt="">
+      </div>  
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/37.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/38.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/39.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/40.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/41.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/42.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/43.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/44.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/45.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/46.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/47.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/48.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/49.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/50.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/51.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/52.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/53.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/54.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/55.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/56.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/57.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/58.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/59.jpg" alt="">
+      </div>
+      <div class="img-wrap">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" class="lazy" data-src="./src/images/60.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <script type="module">
+    import { Waterfall} from "./dist/waterfall.js";
+
+    const waterfall1 = new Waterfall('.waterfall1', {
+      gap: 20,
+      count: 2,
+      breakpoints: {
+        576: {
+          gap: 20,
+          count: 4
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
